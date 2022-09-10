@@ -3,7 +3,9 @@
 /* link the web font used for the level 1 heading here */
 
 /*////////// Global Styles //////////*/
-
+*{
+    margin:0;
+}
 body {
 	background: #F3EBE9;
 	font-size: 100%;
@@ -15,6 +17,47 @@ body {
 	margin: 0 auto;
 	background: #fff;
 	padding: 0 45px 20px;
+}
+h1{
+    font-size: 70px;
+    line-height: 100px;
+}
+h2{
+    font-size: 2em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+}
+h1, h2{
+    color:#98ADA6;
+}
+a{color:#1783bb;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.necklacePic{
+    border:#98ADA6 5px solid;
+    
+}
+hr::after{
+    content:""
+}
+p{
+    margin-bottom: 1em;
+}
+.wrapper>a>img{
+    padding: 1px;
+    border:#CCCCCC 5px solid;
+}
+.wrapper>a>img:hover{
+    border-color:#98ADA6;
+}
+.copyright{
+    font-size: 0.35em;
+    text-align:right;
+    margin-top: 3em;
+    color:rgba(0,0,0,0.75)
 }
 
 /* Write all remaining styles here */
